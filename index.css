@@ -1,0 +1,53 @@
+body{
+    margin:auto;
+}
+a{
+  text-decoration: none;
+}
+#brand{
+  font-size: 30px;
+  text-align: center;
+  padding-top:3% ;
+}
+#foot{
+  text-align: center;
+  padding-top: 2%;
+}
+#social{
+float: right;
+margin-top: -40px;
+}
+.socialLogo{
+  height: 50px;
+}
+header {
+  width: 100%;
+  background: red;
+  color: #ffff;
+  height: 100px;
+  }
+
+footer {
+    width: 100%;
+    background-color: red;
+    color: white;
+    height: 50px;
+  }
+
+div.gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 15%;
+text-align: center;
+padding: 10px;
+}
+
+div.gallery:hover {
+border: 1px solid red;
+}
+
+div.gallery img {
+width: 80%;
+height: 180px;
+}
